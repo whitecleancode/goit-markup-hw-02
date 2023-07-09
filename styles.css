@@ -1,0 +1,59 @@
+:root {
+    --background-main-color: #ffffff;
+    --main-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --logo-color: #4D5AE5;
+    --primary-font: "Roboto", sans-serif;
+    --title-font: "Raleway", sans-serif;
+    
+}
+.page-body {
+    font-family: var(--primary-font);
+    background-color: var(--background-main-color);
+}
+a, a:active {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.list {
+    list-style: none;
+    list-style-type: none;
+}
+
+.page-header {
+    background-color: var(--background-main-color);
+    border-bottom: 1px solid #E7E9FC
+}
+.page-logo {
+    
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
+    text-transform: uppercase;
+}
+.page-logo .page-logo-span {
+    color: var(--main-text-color);
+}
+.page-menu {
+
+}
+.menu-list {
+}
+
+.menu-list-item {
+    color: var(--main-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.social-media {
+}
+.social-list {
+}
+.social-list-item {
+}
