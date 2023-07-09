@@ -5,6 +5,7 @@
     --logo-color: #4D5AE5;
     --primary-font: "Roboto", sans-serif;
     --title-font: "Raleway", sans-serif;
+    --secondary-bg: #F4F4FD;
     
 }
 .page-body {
@@ -14,6 +15,9 @@
 a, a:active {
     text-decoration: none;
     color: var(--main-text-color);
+}
+a:hover, a:focus {
+    color: var(--logo-color);
 }
 
 .list {
@@ -51,9 +55,91 @@ a, a:active {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.social-media {
+.social-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.social-list {
+.hero {
+font-size: 56px;
+font-weight: 700;
+line-height: 0.93;
+letter-spacing: 0.02em;
+
+background-color: var(--main-text-color);
 }
-.social-list-item {
+
+.hero-title {
+    color: var(--background-main-color);
+}
+.hero-button {
+    border-radius: 4px;
+    color: var(--background-main-color);
+    background: var(--logo-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.advantages-list-title {
+    font-size: 20px;
+    
+    font-weight: 500;
+    line-height: 0.83;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+.advantages-text {
+    font-size: 16px;
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+
+}
+.whatwedo-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+}
+.team-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+}
+.team {
+    background-color: var(--secondary-bg);
+}
+
+.team-list-title {
+font-size: 20px;
+
+font-weight: 500;
+line-height: 0.83;
+letter-spacing: 0.02em;
+}
+.team-list-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: var(--main-text-color);
+}
+.page-footer-span {
+    color: var(--background-main-color);
+}
+.footer-text {
+    font-size: 16px;
+
+
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--background-main-color);
 }
