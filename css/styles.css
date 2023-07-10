@@ -71,7 +71,7 @@ background-color: var(--main-text-color);
     color: var(--background-main-color);
 }
 .hero-button {
-    border-radius: 4px;
+   
     color: var(--background-main-color);
     background: var(--logo-color);
   
