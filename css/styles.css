@@ -153,7 +153,7 @@ letter-spacing: 0.02em;
     background-color: var(--main-text-color);
 }
 .page-footer-span {
-    color: var(--background-main-color);
+    color: var(--cloud);
 
 }
 .footer-text {
