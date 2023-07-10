@@ -14,17 +14,18 @@
     background-color: var(--background-main-color);
     color: var(--secondary-text-color);
 }
-a, a:active {
-    text-decoration: none;
-    color: var(--main-text-color);
-}
-a:hover, a:focus {
-    color: var(--logo-color);
-}
 
 .list {
     list-style: none;
     list-style-type: none;
+}
+
+.link, .link:active {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+.menu-list-link:hover , .menu-list-link:focus {
+    color: var(--main-text-color);
 }
 
 .page-header {
@@ -52,11 +53,18 @@ a:hover, a:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.social-media {
+    font-style: normal;
+}
 .social-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
+}
+.social-link:hover, .social-link:focus {
+    color: #404bbf;
 }
 .hero {
 font-size: 56px;
@@ -142,11 +150,7 @@ color: var(--background-main-color);
 }
 
 .portfolio {
-
-}
-.btn-list {
-}
-.list {
+    background-color: #fff;
 }
 .portfolio-btn {
 
