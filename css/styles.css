@@ -29,7 +29,7 @@ a:hover, a:focus {
 
 .page-header {
     background-color: var(--background-main-color);
-    border-bottom: 1px solid #E7E9FC
+  
 }
 .page-logo {
     
@@ -74,7 +74,7 @@ background-color: var(--main-text-color);
     border-radius: 4px;
     color: var(--background-main-color);
     background: var(--logo-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  
 }
 
 .advantages-list-title {
@@ -149,8 +149,7 @@ color: var(--background-main-color);
 .list {
 }
 .portfolio-btn {
-    border-radius: 4px;
-border: 1px solid var(--cornflower);
+
 background: var(--cloud);
 font-size: 16px;
 
