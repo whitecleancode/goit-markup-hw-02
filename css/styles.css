@@ -24,9 +24,7 @@
     text-decoration: none;
     color: var(--main-text-color);
 }
-.menu-list-link:hover , .menu-list-link:focus {
-    color: var(--main-text-color);
-}
+
 
 .page-header {
     background-color: var(--background-main-color);
@@ -53,6 +51,9 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.menu-list-item .menu-list-link:hover , .menu-list-item .menu-list-item:focus {
+    color: #404bbf;
+}
 .social-media {
     font-style: normal;
 }
@@ -61,22 +62,24 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
     
 }
 .social-link:hover, .social-link:focus {
     color: #404bbf;
 }
 .hero {
-font-size: 56px;
-font-weight: 700;
-line-height: 0.93;
-letter-spacing: 0.02em;
+
 
 background-color: var(--main-text-color);
 }
 
 .hero-title {
     color: var(--background-main-color);
+    font-size: 56px;
+font-weight: 700;
+line-height: 0.93;
+letter-spacing: 0.02em;
 }
 .hero-button {
    
