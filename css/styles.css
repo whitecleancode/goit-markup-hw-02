@@ -82,10 +82,13 @@ line-height: 0.93;
 letter-spacing: 0.02em;
 }
 .hero-button {
-   
+    font-family: "Roboto", sans-serif;
     color: var(--background-main-color);
     background: var(--logo-color);
   
+}
+.hero-button:hover, .hero-button:focus {
+    background-color: #404BBF;
 }
 
 .advantages-list-title {
