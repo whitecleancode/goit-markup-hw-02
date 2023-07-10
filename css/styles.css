@@ -7,7 +7,7 @@
     --title-font: "Raleway", sans-serif;
     --secondary-bg: #F4F4FD;
     --cornflower:  #E7E9FC;
-    --cloud: #f4f4fd;
+    --cloud: #F4F4FD;
     --ocean: #404BBF;
 }
 .page-body {
@@ -159,7 +159,7 @@ letter-spacing: 0.02em;
 }
 .footer-text {
     font-size: 16px;
-    color: var(--cloud);
+    color: var(--cloud, #F4F4FD);
 
 
 line-height: 1.5;
