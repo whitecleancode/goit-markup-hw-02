@@ -6,7 +6,8 @@
     --primary-font: "Roboto", sans-serif;
     --title-font: "Raleway", sans-serif;
     --secondary-bg: #F4F4FD;
-    
+    --cornflower:  #E7E9FC;
+    --cloud: #f4f4fd;
 }
 .page-body {
     font-family: var(--primary-font);
@@ -42,11 +43,6 @@ a:hover, a:focus {
 }
 .page-logo .page-logo-span {
     color: var(--main-text-color);
-}
-.page-menu {
-
-}
-.menu-list {
 }
 
 .menu-list-item {
@@ -143,4 +139,41 @@ letter-spacing: 0.02em;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--background-main-color);
+}
+
+.portfolio {
+
+}
+.btn-list {
+}
+.list {
+}
+.portfolio-btn {
+    border-radius: 4px;
+border: 1px solid var(--cornflower);
+background: var(--cloud);
+font-size: 16px;
+
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+
+.portfolio-list-title {
+
+    font-size: 20px;
+
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+
+}
+.portfolio-text {
+    font-size: 16px;
+
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
 }
