@@ -28,7 +28,7 @@
 
 .page-header {
     background-color: var(--background-main-color);
-  
+
 }
 .page-logo {
     
@@ -65,12 +65,11 @@
     color: var(--secondary-text-color);
     
 }
-.social-link:hover, .social-link:focus {
+.social-link:hover, .social-link:focus, .social-link:active {
     color: #404bbf;
 }
+
 .hero {
-
-
 background-color: var(--main-text-color);
 }
 
@@ -78,13 +77,19 @@ background-color: var(--main-text-color);
     color: var(--background-main-color);
     font-size: 56px;
 font-weight: 700;
-line-height: 0.93;
+line-height: 1.07;
+text-align: center;
 letter-spacing: 0.02em;
 }
 .hero-button {
     font-family: "Roboto", sans-serif;
     color: var(--background-main-color);
-    background: var(--logo-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--logo-color);
+    cursor: pointer;
   
 }
 .hero-button:hover, .hero-button:focus {
@@ -166,6 +171,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+cursor: pointer;
 }
 
 
