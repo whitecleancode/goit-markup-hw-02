@@ -51,7 +51,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu-list-item .menu-list-link:hover , .menu-list-item .menu-list-item:focus {
+.menu-list-item .menu-list-link:hover , .menu-list-item .menu-list-link:focus {
     color: #404bbf;
 }
 .social-media {
@@ -100,7 +100,7 @@ letter-spacing: 0.02em;
     font-size: 20px;
     
     font-weight: 500;
-    line-height: 0.83;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
@@ -115,15 +115,17 @@ letter-spacing: 0.02em;
 .whatwedo-title {
     font-size: 36px;
     font-weight: bold;
-    line-height: 0.9;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--main-text-color);
 }
 .team-title {
     font-size: 36px;
     font-weight: bold;
-    line-height: 0.9;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-text-color);
@@ -131,13 +133,15 @@ letter-spacing: 0.02em;
 .team {
     background-color: var(--secondary-bg);
 }
-
+.team-list-item {
+    background-color: #ffffff;
+}
 .team-list-title {
 font-size: 20px;
-
 font-weight: 500;
-line-height: 0.83;
+line-height: 1.2;
 letter-spacing: 0.02em;
+color: var(--main-text-color);
 }
 .team-list-text {
 font-size: 16px;
@@ -150,9 +154,11 @@ letter-spacing: 0.02em;
 }
 .page-footer-span {
     color: var(--background-main-color);
+
 }
 .footer-text {
     font-size: 16px;
+    color: var(--cloud);
 
 
 line-height: 1.5;
