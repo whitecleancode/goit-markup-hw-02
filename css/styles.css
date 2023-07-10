@@ -199,7 +199,7 @@ color: var(--main-text-color);
 .portfolio-text {
     font-size: 16px;
 
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 }
